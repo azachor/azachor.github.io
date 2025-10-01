@@ -1,6 +1,1 @@
 # azachor.github.io
-
-<h3>Coltivare | Testimonials</h>
-
-
-<img src = pictureone.jpg>
