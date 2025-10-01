@@ -9,3 +9,95 @@
 
   
 <img src = pictureone.jpg>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coltivare - Testimonials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #2E8B57;
+            text-align: center;
+        }
+        .highlight {
+            color: #FF4500; /* Font color 1 */
+            font-weight: bold; /* Boldfacing */
+        }
+        .italic-text {
+            font-style: italic; /* Italics */
+        }
+        .underline-text {
+            text-decoration: underline; /* Underline */
+        }
+        .small-text {
+            font-size: 14px; /* Font size 1 */
+        }
+        .large-text {
+            font-size: 18px; /* Font size 2 */
+        }
+        .serif-text {
+            font-family: 'Times New Roman', serif; /* Font style 1 */
+        }
+        .monospace-text {
+            font-family: 'Courier New', monospace; /* Font style 2 */
+        }
+        .testimonial-img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+        .download-link {
+            margin: 20px 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coltivare - Customer Testimonials</h1>
+
+    <p class="highlight large-text">"Coltivare helped our farm increase efficiency by 40%!"</p>
+    <p class="italic-text small-text">- Jamie L., Sustainable Farming Expert</p>
+
+    <p class="underline-text serif-text">Our customers' success stories are what drive us forward.</p>
+
+    <h2>Why Customers Love Coltivare</h2>
+    <ul>
+        <li>Expert support in agricultural solutions</li>
+        <li>High-quality products for all farm sizes</li>
+        <li>Innovative technology integration</li>
+    </ul>
+
+    <h2>Top Testimonials</h2>
+    <ol>
+        <li class="monospace-text">"The tools provided by Coltivare saved us countless hours!" - Alex P.</li>
+        <li class="monospace-text">"A game-changer in sustainable agriculture." - Priya R.</li>
+        <li class="monospace-text">"Excellent customer service and support!" - Michael T.</li>
+    </ol>
+
+    <img src="https://via.placeholder.com/300x200.png?text=Coltivare+Success" alt="Coltivare Success Story" class="testimonial-img">
+
+    <p class="large-text">Learn more about our <a href="https://www.coltivare.com" target="_blank">official website</a>.</p>
+    <p>Contact us: <a href="mailto:testimonials@coltivare.com">testimonials@coltivare.com</a></p>
+    <p class="small-text">Download our <a href="Coltivare_Brochure.pdf" download class="download-link">free brochure</a> to see our products in action.</p>
+
+    <p class="highlight">Additional Resources:</p>
+    <ul>
+        <li><a href="https://www.farmersweekly.com" target="_blank">Farmers Weekly</a></li>
+        <li><a href="https://www.agriculture.com">Agriculture News</a></li>
+    </ul>
+
+    <footer>
+        <p class="small-text">Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script>
+        // Auto-update last modified date
+        document.getElementById('lastModified').textContent = new Date(document.lastModified).toLocaleDateString();
+    </script>
+</body>
